@@ -1,0 +1,190 @@
+19:56:36 **** Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../HelloWorld.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HelloWorld.d" -MT"HelloWorld.o" -o "HelloWorld.o" "../HelloWorld.cpp"
+Finished building: ../HelloWorld.cpp
+ 
+Building target: HelloWorld.exe
+Invoking: Cygwin C++ Linker
+g++  -o "HelloWorld.exe" ./HelloWorld.o   
+Finished building target: HelloWorld.exe
+ 
+19:56:57 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+13:23:34 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+13:23:38 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../HelloWorld.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HelloWorld.d" -MT"HelloWorld.o" -o "HelloWorld.o" "../HelloWorld.cpp"
+Finished building: ../HelloWorld.cpp
+ 
+Building target: HelloWorld.exe
+Invoking: Cygwin C++ Linker
+g++  -o "HelloWorld.exe" ./HelloWorld.o   
+Finished building target: HelloWorld.exe
+ 
+13:23:43 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+make: Nothing to be done for 'all'.
+13:23:58 **** Incremental Build of configuration Debug for project HelloWorld ****
+make all 
+Building file: ../HelloWorld.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HelloWorld.d" -MT"HelloWorld.o" -o "HelloWorld.o" "../HelloWorld.cpp"
+Finished building: ../HelloWorld.cpp
+ 
+Building target: HelloWorld.exe
+Invoking: Cygwin C++ Linker
+g++  -o "HelloWorld.exe" ./HelloWorld.o   
+Finished building target: HelloWorld.exe
+ 
+13:31:19 **** Clean-only build of configuration Debug for project GrundkursC++ ****
+make clean 
+rm -rf ./HelloWorld.d ./HelloWorld.o
+rm -rf HelloWorld.exe
+ 
+13:31:20 **** Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing001.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing001.d" -MT"listing001.o" -o "listing001.o" "../listing001.cpp"
+Finished building: ../listing001.cpp
+ 
+Building file: ../listing002.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing002.d" -MT"listing002.o" -o "listing002.o" "../listing002.cpp"
+Finished building: ../listing002.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o   
+/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/bin/ld: ./listing002.o: in function `main':
+/cygdrive/d/Lea Roncero/C++/EclipseWorkspace/GrundkursC++/Debug/../listing002.cpp:5: multiple definition of `main'; ./listing001.o:/cygdrive/d/Lea Roncero/C++/EclipseWorkspace/GrundkursC++/Debug/../listing001.cpp:5: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:58: GrundkursC++.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:31:50 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing001.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing001.d" -MT"listing001.o" -o "listing001.o" "../listing001.cpp"
+Finished building: ../listing001.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o   
+Finished building target: GrundkursC++.exe
+ 
+13:31:52 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+make: Nothing to be done for 'all'.
+13:40:45 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing001.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing001.d" -MT"listing001.o" -o "listing001.o" "../listing001.cpp"
+Finished building: ../listing001.cpp
+ 
+Building file: ../listing002.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing002.d" -MT"listing002.o" -o "listing002.o" "../listing002.cpp"
+../listing002.cpp:3:1: error: unterminated comment
+    3 | /*
+      | ^
+make: *** [subdir.mk:26: listing002.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:42:01 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing002.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing002.d" -MT"listing002.o" -o "listing002.o" "../listing002.cpp"
+Finished building: ../listing002.cpp
+ 
+Building file: ../listing003.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing003.d" -MT"listing003.o" -o "listing003.o" "../listing003.cpp"
+../listing003.cpp: In function 'int main()':
+../listing003.cpp:7:45: error: expected ';' before 'std'
+    7 |         std::cout << "Bitte eine Ganzzahl: " std::endl;
+      |                                             ^~~~
+      |                                             ;
+../listing003.cpp:8:28: error: expected ';' before 'std'
+    8 |         std::cout << "test" std::endl;
+      |                            ^~~~
+      |                            ;
+make: *** [subdir.mk:26: listing003.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:42:24 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing003.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing003.d" -MT"listing003.o" -o "listing003.o" "../listing003.cpp"
+Finished building: ../listing003.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o ./listing003.o   
+Finished building target: GrundkursC++.exe
+ 
+13:42:31 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing003.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing003.d" -MT"listing003.o" -o "listing003.o" "../listing003.cpp"
+Finished building: ../listing003.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o ./listing003.o   
+Finished building target: GrundkursC++.exe
+ 
+13:42:36 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+make: Nothing to be done for 'all'.
+13:42:42 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing003.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing003.d" -MT"listing003.o" -o "listing003.o" "../listing003.cpp"
+Finished building: ../listing003.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o ./listing003.o   
+Finished building target: GrundkursC++.exe
+ 
+13:43:46 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing003.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing003.d" -MT"listing003.o" -o "listing003.o" "../listing003.cpp"
+Finished building: ../listing003.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o ./listing003.o   
+Finished building target: GrundkursC++.exe
+ 
+13:43:49 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:59 **** Incremental Build of configuration Debug for project GrundkursC++ ****
+make all 
+Building file: ../listing003.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"listing003.d" -MT"listing003.o" -o "listing003.o" "../listing003.cpp"
+Finished building: ../listing003.cpp
+ 
+Building target: GrundkursC++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "GrundkursC++.exe" ./listing001.o ./listing002.o ./listing003.o   
+Finished building target: GrundkursC++.exe
+ 
+08:29:09 **** Build of configuration Debug for project GrundkursC++ ****
+make all 
+make: Nothing to be done for 'all'.
